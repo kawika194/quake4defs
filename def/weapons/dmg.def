@@ -22,6 +22,7 @@ export dmg
 	anim	dmg_sequence.ma			-range 207 212 	-dest lower_loaded
 }
 
+
 export dmg_strogg
 {
 	options -prefix DMG_ -scale .3937 -keep muzzle_flash -sourcedir work/models/weapons/strogg_dark_matter/animations -destdir models/weapons/darkmatter

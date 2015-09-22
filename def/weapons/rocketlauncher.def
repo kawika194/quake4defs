@@ -22,6 +22,7 @@ export rocketlauncher
 	anim	reload_fast.ma		-dest ammo_pickup	-range 16 20
 }
 
+
 export rocketlauncher_strogg
 {
 	options -prefix SRL_ -scale .4 -keep muzzle_flash l_vent r_vent -sourcedir work/models/weapons/strogg_rocket_launcher/animations -destdir models/weapons/rocketlauncher

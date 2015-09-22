@@ -20,6 +20,7 @@ export machinegun
 	anim	work/models/weapons/marine_machine_gun/animations/machinegun_flashlight.ma	-dest models/weapons/machinegun/flashlight
 }
 
+
 export machinegun_strogg
 {
 	options -prefix MACHINE_GUN_ -scale .4 -keep barrel_1 barrel_2 eject flashlight

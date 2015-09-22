@@ -20,6 +20,7 @@ export hyperblaster
 	anim	work/models/weapons/marine_hyper_blaster/animations/hyper_blaster_reload.ma		-dest models/weapons/hyperblaster/reload
 }
 
+
 export hyperblaster_strogg
 {
 	options -prefix HYPR_BLASTER_ -scale .4 -keep barrel 
