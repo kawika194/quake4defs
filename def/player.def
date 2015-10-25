@@ -635,11 +635,18 @@ entityDef player_marine
 	"copy_joint legs_channel"				"legs_channel"
 
 	// weapon slots
-	"def_weapon0"						"weapon_blaster"
-	"weapon0_best"						"1"			// whether weapon should be chosen when out of ammo
-	"weapon0_cycle"						"1"			// whether weapon should be selected when using next/prev weapon
-	"weapon0_toggle"					"0"			// whether selecting weapon twice switches between current and previous weapons
-	"weapon0_flashlight"					"1"
+	
+	// replace blaster with gauntlet in MP
+	"def_weapon0"						"weapon_gauntlet"
+	"weapon0_best"						"1"
+	"weapon0_cycle"						"1"
+	"weapon0_flashlight"					"0"
+	
+	"def_weapon11"						"weapon_blaster"
+	"weapon11_best"						"1"			// whether weapon should be chosen when out of ammo
+	"weapon11_cycle"						"1"			// whether weapon should be selected when using next/prev weapon
+	"weapon11_toggle"					"0"			// whether selecting weapon twice switches between current and previous weapons
+	"weapon11_flashlight"					"1"
 
 	"def_weapon1"						"weapon_machinegun"
 	"weapon1_best"						"1"
@@ -692,14 +699,19 @@ entityDef player_marine
 	// default weapons
 	// seperate multiple weapons with commas (no spaces).
 	// NOTE: default ammo must be specified explicitly.
-	"weapon"						"weapon_blaster"
-	"current_weapon"					"0"
+	
+	//"weapon"						"weapon_blaster"
+	//"current_weapon"					"0"
+	
+	"weapon"			"weapon_machinegun,weapon_gauntlet,weapon_blaster"
+	"current_weapon"		"1"
+	
 
 	"pm_jumpheight"						"48"
 	"pm_stepsize"						"16"
-	"pm_speed"						"250"  	//DOOM speed was 140 // speed when pressing shift or is that for walk spd?
-	"pm_walkspeed"						"750" // idfk
-	"pm_crouchspeed"					"890"
+	"pm_speed"						"160"  	//DOOM speed was 140
+	"pm_walkspeed"						"80"
+	"pm_crouchspeed"					"80"
 	"pm_noclipspeed"					"270"	
 	"pm_minviewpitch"					"-89"	// looking up
 //	"pm_maxviewpitch"					"53"	// looking down
@@ -721,8 +733,8 @@ entityDef player_marine
 	"respawn_delay"						"1.7"		// minimum delay for respawning after death
 
 	// stats
-	"health"						"999"
-	"maxhealth"						"999"
+	"health"						"100"
+	"maxhealth"						"100"
 	"armor"							"999"
 	"maxarmor"						"999"
 	"minRestoreHealth0"					"20"		// Minimum health when loading a game for skill level 0
@@ -741,15 +753,15 @@ entityDef player_marine
 	"ammo_none"						"-1"
 
 	"max_ammo_blaster"					"-1"
-	"max_ammo_railgun"					"-1"
-	"max_ammo_machinegun"					"-1"
-	"max_ammo_nailgun"					"-1"
-	"max_ammo_shotgun"					"-1"
-	"max_ammo_hyperblaster"					"-1"
-	"max_ammo_napalmgun"					"-1"
-	"max_ammo_rocketlauncher"				"-1"
-	"max_ammo_grenadelauncher"				"-1"
-	"max_ammo_lightninggun"					"-1"
+	"max_ammo_railgun"					"50"
+	"max_ammo_machinegun"					"300"
+	"max_ammo_nailgun"					"300"
+	"max_ammo_shotgun"					"50"
+	"max_ammo_hyperblaster"					"400"
+	"max_ammo_napalmgun"					"40"
+	"max_ammo_rocketlauncher"				"40"
+	"max_ammo_grenadelauncher"				"50"
+	"max_ammo_lightninggun"					"400"
 	"max_ammo_dmg"						"25"
 	"max_ammo_none"						"-1"
 
@@ -814,17 +826,17 @@ entityDef player_strogg
 	"hud"								"guis/hud_strogg.gui"
 	"wristcomm"							"guis/wristcomm_strogg.gui"
 	"pm_speed"							"230" 			
-	"pm_walkspeed"						"700"
+	"pm_walkspeed"						"115"
 	"strogg"							"1"		
 
 	"def_head"							"char_marinehead_kanestrg"
 	"model"								"model_player_strogg"
 
 	// stats
-	"health"							"999"
-	"maxhealth"							"999"
-	"armor"								"999"
-	"maxarmor"							"999"
+	"health"							"125"
+	"maxhealth"							"125"
+	"armor"								"0"
+	"maxarmor"							"125"
 }
 
 /*
@@ -1302,7 +1314,6 @@ entityDef player_marine_mp
 	"team_icon_height_strogg"	"0 0 85"
 	"mtr_team_icon_marine"		"textures/mp/marine_icon"
 	"team_icon_height_marine"	"0 0 85"
-	
 	
 	// chat bubble over head
 	"mtr_icon_chatting"		"gfx/guis/hud/chat"

@@ -20,7 +20,6 @@ export hyperblaster
 	anim	work/models/weapons/marine_hyper_blaster/animations/hyper_blaster_reload.ma		-dest models/weapons/hyperblaster/reload
 }
 
-
 export hyperblaster_strogg
 {
 	options -prefix HYPR_BLASTER_ -scale .4 -keep barrel 
@@ -108,7 +107,7 @@ entityDef weapon_hyperblaster
 	
 	"mtr_flashShader"			"lights/muzzleflash"
 	"flashColor"				"0.7 0.8 1"
-	"flashRadius"				"20000000"
+	"flashRadius"				"200"
 	"flashPointLight"			"1"
 	"flashTime"					".1"
 	"flashViewOffset"			"15 -2 5"
@@ -272,9 +271,9 @@ entityDef weaponmod_hyperblaster_bounce2
 entityDef damage_hyperblaster
 {
 	"inherit"					"damage_blaster"
-	"damage"					"1500000000"
+	"damage"					"14"
 
-	"deathPush"					"1500000000"
+	"deathPush"					"100"
 	"deathPushMin"				"3000 350"
 	"deathPushMax"				"5000 500"
 }
@@ -287,9 +286,9 @@ entityDef damage_hyperblaster_mp
 
 entityDef damage_hyperblaster_splash
 {
-	"damage"					"1500000000"
-	"radius"					"1500000000"
-	"knockback"					"1500000000"
+	"damage"					"10"
+	"radius"					"35"
+	"knockback"					"5"
 	"push"						"0"
 	"gib"						"0"
 

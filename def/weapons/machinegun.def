@@ -20,7 +20,6 @@ export machinegun
 	anim	work/models/weapons/marine_machine_gun/animations/machinegun_flashlight.ma	-dest models/weapons/machinegun/flashlight
 }
 
-
 export machinegun_strogg
 {
 	options -prefix MACHINE_GUN_ -scale .4 -keep barrel_1 barrel_2 eject flashlight
@@ -101,7 +100,7 @@ entityDef weapon_machinegun
 	"def_althitscan"			"hitscan_zoomed_bullet"
 	
 	"ammoType"					"ammo_machinegun"
-	"ammoRequired"				"1"
+	"ammoRequired"				"0"
 	"clipSize"					"0"
 	"lowAmmo"					"0"
 	"gui"						"guis/weapons/machinegun_ammo.gui"
@@ -381,8 +380,8 @@ entityDef hitscan_zoomed_bullet
 entityDef damage_machinegun
 {
 	"inherit"					"damage_bullet"
-	"damage"					"1500000000"
-	"damage_flesh"				"1500000000"
+	"damage"					"15"
+	"damage_flesh"				"18"
 
 	"deathPush"					"100"
 	"deathPushMin"				"3000 350"
@@ -392,7 +391,7 @@ entityDef damage_machinegun
 entityDef damage_machinegun_flesh
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"1500000000"
+	"damage"					"18"
 }
 
 //---------------------------------------------------------------
@@ -401,14 +400,14 @@ entityDef damage_machinegun_flesh
 entityDef damage_machinegun_zoom
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"1500000000"
-	"damage_flesh"				"1500000000"
+	"damage"					"20"
+	"damage_flesh"				"24"
 }
 
 entityDef damage_machinegun_zoom_flesh
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"1500000000"
+	"damage"					"24"
 }
 
 //---------------------------------------------------------------
@@ -435,9 +434,9 @@ entityDef hitscan_zoomed_bullet_mp
 entityDef damage_machinegun_mp
 {
 	"inherit"					"damage_bullet"
-	"damage"					"1500000000"
-	"damage_flesh"					"1500000000"
-	"damage_team"					"1500000000"
+	"damage"					"7"
+	"damage_flesh"					"7"
+	"damage_team"					"5"
 	"knockback"					"7"
 	"knockback_team"				"5"
 
@@ -450,8 +449,8 @@ entityDef damage_machinegun_mp
 entityDef damage_machinegun_zoom_mp
 {
 	"inherit"					"damage_machinegun_mp"
-	"damage"					"1500000000"
-	"damage_flesh"					"1500000000"
+	"damage"					"10"
+	"damage_flesh"					"10"
 	"damage_team"					"7"
 	"knockback"					"10"
 	"knockback_team"				"10"

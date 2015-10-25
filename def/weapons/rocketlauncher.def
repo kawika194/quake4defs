@@ -22,7 +22,6 @@ export rocketlauncher
 	anim	reload_fast.ma		-dest ammo_pickup	-range 16 20
 }
 
-
 export rocketlauncher_strogg
 {
 	options -prefix SRL_ -scale .4 -keep muzzle_flash l_vent r_vent -sourcedir work/models/weapons/strogg_rocket_launcher/animations -destdir models/weapons/rocketlauncher
@@ -76,8 +75,8 @@ entityDef weapon_rocketlauncher
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
 	"inv_name"					"#str_107409"	
 
-	"fireRate"					".0000008"
-	"reloadRate"				".000000008"
+	"fireRate"					".8"
+	"reloadRate"				".8"
 	"spread"					"0"
 
 	"ammoRegenStep"				"1"
@@ -86,7 +85,7 @@ entityDef weapon_rocketlauncher
 	"weaponname"				"Rocket Launcher"
 	"def_projectile"			"projectile_rocket"
 	"ammoType"					"ammo_rocketlauncher"
-	"clipSize"					"0"
+	"clipSize"					"1"
 	"ammoRequired"				"1"
 	"gui"						"guis/weapons/rocketlauncher_ammo.gui"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_rocketlauncher"
@@ -96,7 +95,7 @@ entityDef weapon_rocketlauncher
 	"muzzle_kick_angles"		"-15 0 0"
 	"muzzle_kick_offset"		"3 0 3"
 
-	"recoilTime"				"100"
+	"recoilTime"				"500"
 	"recoilAngles"				"-.20 0 0"
 	
 	"mtr_flashShader"			"lights/muzzleflash"
@@ -123,7 +122,7 @@ entityDef weapon_rocketlauncher
 	"weaponAngleOffsetAverages" "10"
 	"weaponAngleOffsetScale" 	".15"
 	"weaponAngleOffsetMax"		"3"
-	"weaponOffsetTime"			"100"
+	"weaponOffsetTime"			"600"
 	"weaponOffsetScale"			"0.002"
 
 //	"launchFromBarrel"			"1"
@@ -370,7 +369,7 @@ entityDef projectile_rocket_mp
 {
 	"inherit"					"projectile_rocket"
 	"predictTime"				"50"
-	"speed"						"999935"
+	"speed"						"935"
 	"size"						"5 5 5"
 	"no_impact_prediction"		"1"
 }
@@ -392,7 +391,7 @@ entityDef projectile_rocket_homing
 
 entityDef damage_rocketDirect 
 {
-	"damage"					"1500000000"
+	"damage"					"150"
 	"push"						"45000"
 	"gib"						"1"
 
@@ -408,15 +407,15 @@ entityDef damage_rocketDirect
 entityDef damage_rocketDirect_mp
 {
 	"inherit"					"damage_rocketDirect"
-	"damage"					"1500000000"
+	"damage"					"100"
 	"knockback"					"110"
 }
 
 entityDef damage_rocketSplash 
 {
-	"damage"					"1500000000"
-	"radius"					"1500000000"
-	"knockback"					"00"
+	"damage"					"150"
+	"radius"					"180"
+	"knockback"					"100"
 	"push"						"10000"
 	"gib"						"0"
 
