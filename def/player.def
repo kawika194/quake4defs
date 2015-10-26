@@ -686,7 +686,7 @@ entityDef player_marine
 	"weapon9_best"						"0"
 	"weapon9_cycle"						"1"
 
-	"def_weapon10"						"weapon_napalmgun"
+	"def_weapon10"						"weapon_napalmgun" //is this not in sp?
 	"weapon10_best"						"0"
 	"weapon10_cycle"					"1"	
 
@@ -703,14 +703,19 @@ entityDef player_marine
 	//"weapon"						"weapon_blaster"
 	//"current_weapon"					"0"
 	
-	"weapon"			"weapon_machinegun,weapon_gauntlet,weapon_blaster"
-	"current_weapon"		"1"
 	
+	//warrior set
+//	"weapon"			"weapon_shotgun,weapon_gauntlet,weapon_blaster" 
+//	"current_weapon"		"0" //when set to 1 spawns with machinegun even not mentioned above
+
+	//ranger set
+	"weapon"			"weapon_hyperblaster,weapon_gauntlet,weapon_blaster" 
+	"current_weapon"		"0" //when set to 1 spawns with machinegun even not mentioned above
 
 	"pm_jumpheight"						"48"
 	"pm_stepsize"						"16"
 	"pm_speed"						"160"  	//DOOM speed was 140
-	"pm_walkspeed"						"80"
+	"pm_walkspeed"						"320" // 80 default. 
 	"pm_crouchspeed"					"80"
 	"pm_noclipspeed"					"270"	
 	"pm_minviewpitch"					"-89"	// looking up

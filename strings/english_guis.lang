@@ -3,10 +3,10 @@
 //
 
 {
-	"#str_200000"	"NEW GAME"
-	"#str_200001"	"LOAD GAME"
-	"#str_200002"	"MULTIPLAYER"
-	"#str_200003"	"SAVE GAME"
+	"#str_200000"	" "//"NEW GAME"
+	"#str_200001"	"SELECT CLASS"//"LOAD GAME"
+	"#str_200002"	" "//"MULTIPLAYER"
+	"#str_200003"	" "//"SAVE GAME"
 	"#str_200004"	"QUIT CURRENT GAME"
 	"#str_200005"	"RETURN TO GAME"
 	"#str_200006"	"DISCONNECT"
@@ -22,7 +22,7 @@
 	"#str_200016"	"TECH MAGE" //lieutenant
 	"#str_200017"	"DONT DO IT BOY" //general
 	"#str_200018"	"BACK"
-	"#str_200019"	"CORPORAL - You can hit a moving target...usually"
+	"#str_200019"	"Ranger eh?"//"CORPORAL - You can hit a moving target...usually"
 	"#str_200020"	"START GAME"
 	"#str_200021"	"DELETE GAME"
 	"#str_200022"	"INSTANT ACTION"
@@ -183,8 +183,8 @@
 	"#str_200180"	"your ip address:"
 	"#str_200181"	""
 	"#str_200182"	"FIND PLAYER/CLAN"
-	"#str_200183"	"PRIVATE - Try not to shoot yourself in the foot"
-	"#str_200184"	"LIEUTENANT - Shoot first, ask questions later"
+	"#str_200183"	"Warrior? Good luck"//"PRIVATE - Try not to shoot yourself in the foot"
+	"#str_200184"	"KILL THEM ALL! Afterall, you are a mage!"//"LIEUTENANT - Shoot first, ask questions later"
 	"#str_200185"	"GENERAL - An unstoppable death machine"
 	"#str_200186"	"JOIN TEAM"
 	"#str_200187"	"JOIN GAME"
@@ -912,7 +912,7 @@
 	"#str_200922"	"REMOVE BAN"
 	"#str_200923"	"CLOSE"
 	"#str_200924"	"GUID"
-	"#str_200925"	"SAVE NAME"
+	"#str_200925"	"CLASS NAME "//"SAVE NAME"
 	"#str_200926"	"LOCATION"
 	"#str_200927"	"CURRENT MAP"
 	"#str_200928"	"SERVER SETTINGS"
