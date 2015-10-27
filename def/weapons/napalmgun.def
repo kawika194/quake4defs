@@ -80,7 +80,8 @@ entityDef weapon_napalmgun
 
 	"weaponname"				"Napalm Launcher"
 	"def_projectile"			"projectile_napalm"
-	"ammoType"					"ammo_napalmgun"
+//	"ammoType"					"ammo_napalmgun"
+	"ammoType"					"ammo_machinegun"
 	"clipSize"					"20"
 	"ammoRequired"				"1"
 	"gui"						"guis/weapons/napalmgun.gui"

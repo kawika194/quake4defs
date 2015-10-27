@@ -648,10 +648,10 @@ entityDef player_marine
 	"weapon11_toggle"					"0"			// whether selecting weapon twice switches between current and previous weapons
 	"weapon11_flashlight"					"1"
 
-	"def_weapon1"						"weapon_machinegun"
-	"weapon1_best"						"1"
-	"weapon1_cycle"						"1"
-	"weapon1_flashlight"					"1"
+//	"def_weapon1"						"weapon_machinegun"
+//	"weapon1_best"						"1"
+//	"weapon1_cycle"						"1"
+//	"weapon1_flashlight"					"1"
 
 	"def_weapon2"						"weapon_shotgun"
 	"weapon2_best"						"1"
@@ -705,13 +705,18 @@ entityDef player_marine
 	
 	
 	//warrior set
-//	"weapon"			"weapon_shotgun,weapon_gauntlet,weapon_blaster" 
-//	"current_weapon"		"0" //when set to 1 spawns with machinegun even not mentioned above
+//	"weapon"			"weapon_grenadelauncher,weapon_shotgun,weapon_gauntlet,weapon_blaster" 
+//	"current_weapon"		"11" //when set to 1 spawns with machinegun even not mentioned above
 
 	//ranger set
-	"weapon"			"weapon_hyperblaster,weapon_gauntlet,weapon_blaster" 
-	"current_weapon"		"0" //when set to 1 spawns with machinegun even not mentioned above
-
+//	"weapon"			"weapon_hyperblaster,weapon_gauntlet,weapon_blaster,weapon_nailgun" 
+//	"current_weapon"		"11" //when set to 1 spawns with machinegun even not mentioned above
+	
+	//mage set
+	"weapon"			"weapon_lightninggun,weapon_gauntlet,weapon_napalmgun,weapon_blaster" 
+	"current_weapon"		"11" //when set to 1 spawns with machinegun even not mentioned above	
+	
+	
 	"pm_jumpheight"						"48"
 	"pm_stepsize"						"16"
 	"pm_speed"						"160"  	//DOOM speed was 140

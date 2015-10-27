@@ -82,7 +82,7 @@ entityDef weapon_lightninggun
 	"inv_name"							"#str_107405"
 
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_lightninggun"
-	"ammoType"					"ammo_lightninggun"
+	"ammoType"					"ammo_machinegun"
 	"ammoRequired"				"1"
 	"clipSize"					"0"
 	"lowAmmo"					"10"
@@ -221,7 +221,7 @@ entityDef weaponmod_lightninggun_chain
 	"inv_ammo_lightninggun"		"100"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_lightning.tga"
-	"inv_name"					"#str_107434"
+	"inv_name"					"Static Shock Lvl 2"
 	"model"						"models/items/ammo/ammo_box.lwo"
 
 	"net_syncPhysics"			"1"

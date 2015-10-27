@@ -80,15 +80,16 @@ entityDef weapon_grenadelauncher
 	// the direction of projectile launches will be modified by this
 	"dirOffset"					"0 0 .2"
 	
-	"inv_weapon"				"weapon_grenadelauncher"
+	"inv_weapon"				"weapon_machinegun"
 	"inv_start_ammo_grenadelauncher"	"10"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_grenade.tga"
-	"inv_name"					"#str_107403"	
+	"inv_name"					"Launcher of Lesser Hades"	
 
 	"weaponname"				"Grenade Launcher"
 	"def_projectile"			"projectile_grenade"
-	"ammoType"					"ammo_grenadelauncher"
+//	"ammoType"					"ammo_grenadelauncher"
+	"ammoType"					"ammo_shotgun"	
 	"clipSize"					"8"
 	"ammoRequired"				"1"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_grenadelauncher"

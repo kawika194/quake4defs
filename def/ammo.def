@@ -53,7 +53,7 @@ entityDef ammo_machinegun
 	"spawnclass"				"idItem"
 	"model"					"models/pick_ups/sp_pickups/sp_mg_rounds.lwo"
 	"size"					"32 32 32"
-	"inv_ammo_machinegun"			"50"
+	"inv_ammo_machinegun"			"300"
 
 	"inv_name"				"#str_107411"
 	"inv_icon"				"gfx/guis/hud/icons/item_machinegun.tga"

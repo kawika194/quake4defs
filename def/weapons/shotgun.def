@@ -92,9 +92,9 @@ entityDef weapon_shotgun
 	"weaponname"				"Shotgun"
 	"def_hitscan"				"hitscan_shotgun_pellet"
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_shotgun"
-	"ammoType"				"ammo_shotgun"
-	"clipSize"				"0" //8 default
-	"ammoRequired"				"0" //1 default
+	"ammoType"				"ammo_machinegun"
+	"clipSize"				"2" //8 default
+	"ammoRequired"				"1" //1 default
 	"gui"					"guis/weapons/shotgun_ammo.gui"
 	"mtr_icon"				"gfx/guis/hud/icons/gun_shotgun"
 
@@ -297,7 +297,7 @@ entityDef weaponmod_shotgun_ammo
 	"inv_ammo_shotgun"			"32"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_shotgun.tga"
-	"inv_name"					"#str_107431"
+	"inv_name"					"Mr. Double Shots"
 	"model"						"models/items/ammo/ammo_box.lwo"
 }
 
@@ -336,7 +336,7 @@ entityDef hitscan_shotgun_pellet
 entityDef damage_pellet
 {
 	"inherit"					"damage_bullet"
-	"damage"					"14"
+	"damage"					"56"
 
 	"splat_size"				"128"
 	
