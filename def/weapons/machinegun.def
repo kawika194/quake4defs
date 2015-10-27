@@ -90,7 +90,7 @@ entityDef weapon_machinegun
 	"inv_start_ammo_machinegun"		"40"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_machinegun.tga"
-	"inv_name"					"#str_107406"
+	"inv_name"					"weapons"
 
 	"fireRate"					".1"
 	"spread"					"2"

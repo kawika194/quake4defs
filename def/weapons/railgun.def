@@ -91,12 +91,12 @@ entityDef weapon_railgun
 	"inv_start_ammo_railgun"		"10"
 	"inv_item"				"1"
 	"inv_icon"				"gfx/guis/hud/icons/item_railgun"
-	"inv_name"				"#str_107408"
+	"inv_name"				"Sniper"
 	
 	"def_hitscan"				"hitscan_railgun"	
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_railgun"
 
-	"ammoType"				"ammo_railgun"
+	"ammoType"				"ammo_machinegun"
 	"ammoRequired"				"1"
 	"clipSize"				"3"
 	"lowAmmo"				"1"
@@ -433,7 +433,7 @@ entityDef hitscan_railgun_penetrate
 
 entityDef damage_railgun 
 {
-	"damage"					"125"
+	"damage"					"110"
 	"push"						"500"
 	"knockback"					"100"
 	"gib"						"1"

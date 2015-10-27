@@ -125,9 +125,9 @@ entityDef weapon_nailgun
 
 	"def_projectile"			"projectile_nail"
 	"def_altprojectile"			"projectile_nail_seek"
-	"ammoType"					"ammo_nailgun"
+	"ammoType"					"ammo_machinegun"
 	"ammoRequired"				"1"
-	"clipSize"					"50"
+	"clipSize"					"30"
 	"lowAmmo"					"1"
 
 	"mtr_flashShader"			"lights/muzzleflash"
@@ -367,7 +367,7 @@ entityDef weaponmod_nailgun_power
 	"inv_ammo_nailgun"			"100"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_nailgun.tga"
-	"inv_name"					"#str_107436"
+	"inv_name"					"Nail Shooter"
 	"model"						"models/items/ammo/ammo_box.lwo"
 
 	"net_syncPhysics"			"1"
@@ -481,7 +481,7 @@ entityDef projectile_nail_seek
 
 entityDef damage_nailDirect 
 {
-	"damage"					"25"
+	"damage"					"20"
 //	"push"						"1000"
 	"gib"						"0"
 

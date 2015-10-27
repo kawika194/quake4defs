@@ -79,7 +79,7 @@ entityDef weapon_lightninggun
 	"inv_start_ammo_lightninggun"		"100"
 	"inv_item"							"1"
 	"inv_icon"							"gfx/guis/hud/icons/item_lightning.tga"
-	"inv_name"							"#str_107405"
+	"inv_name"							"Lightning"
 
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_lightninggun"
 	"ammoType"					"ammo_machinegun"
@@ -292,7 +292,7 @@ entityDef hitscan_lightninggun_mp
 
 entityDef damage_lightninggun
 {
-	"damage"					"11"
+	"damage"					"10"
 //	"knockback"					"10"
 	"gib"						"1"
 

@@ -709,18 +709,19 @@ entityDef player_marine
 //	"current_weapon"		"11" //when set to 1 spawns with machinegun even not mentioned above
 
 	//ranger set
-//	"weapon"			"weapon_hyperblaster,weapon_gauntlet,weapon_blaster,weapon_nailgun" 
-//	"current_weapon"		"11" //when set to 1 spawns with machinegun even not mentioned above
+//	"weapon"			"weapon_hyperblaster,weapon_railgun,weapon_blaster,weapon_nailgun" 
+//	"current_weapon"		"11" 
 	
 	//mage set
-	"weapon"			"weapon_lightninggun,weapon_gauntlet,weapon_napalmgun,weapon_blaster" 
-	"current_weapon"		"11" //when set to 1 spawns with machinegun even not mentioned above	
+	"weapon"			"weapon_lightninggun,weapon_dmg,weapon_napalmgun,weapon_blaster" 
+	"current_weapon"		"11" 	
 	
 	
 	"pm_jumpheight"						"48"
 	"pm_stepsize"						"16"
-	"pm_speed"						"160"  	//DOOM speed was 140
-	"pm_walkspeed"						"320" // 80 default. 
+	"pm_speed"						"160"  	//DOOM speed was 140 default 160
+//warrior sprint	"pm_walkspeed"						"320" // 80 default. 
+	"pm_walkspeed"						"80" 
 	"pm_crouchspeed"					"80"
 	"pm_noclipspeed"					"270"	
 	"pm_minviewpitch"					"-89"	// looking up
@@ -744,9 +745,10 @@ entityDef player_marine
 
 	// stats
 	"health"						"100"
+//warrior hp 300	"maxhealth"						"100"
 	"maxhealth"						"100"
-	"armor"							"999"
-	"maxarmor"						"999"
+	"armor"							"300"
+	"maxarmor"						"600"
 	"minRestoreHealth0"					"20"		// Minimum health when loading a game for skill level 0
 	"minRestoreHealth1"					"10"		// Minimum health when loading a game for skill level 1
 

@@ -100,11 +100,11 @@ entityDef weapon_dmg
 	"inv_start_ammo_dmg"		"10"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_darkmatter.tga"
-	"inv_name"					"#str_107401"	
+	"inv_name"					"Dark Magic"	
 
 	"weaponname"				"Dark Matter Gun"
 	"def_projectile"			"projectile_dmg"
-	"ammoType"					"ammo_dmg"
+	"ammoType"					"ammo_machinegun"
 	"clipSize"					"1"
 	"ammoRequired"				"1"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_darkmatter"
