@@ -87,7 +87,7 @@ entityDef weapon_shotgun
 	"inv_start_ammo_shotgun"		"10"
 	"inv_item"				"1"
 	"inv_icon"				"gfx/guis/hud/icons/item_shotgun.tga"
-	"inv_name"				"#str_107410"
+	"inv_name"				"Mr. Double Shots"
 
 	"weaponname"				"Shotgun"
 	"def_hitscan"				"hitscan_shotgun_pellet"
