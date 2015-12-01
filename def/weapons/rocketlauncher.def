@@ -75,9 +75,10 @@ entityDef weapon_rocketlauncher
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
 	"inv_name"					"#str_107409"	
 
-	"fireRate"					".8"
+	"fireRate"					".04"
 	"reloadRate"				".8"
-	"spread"					"0"
+	"spread"					"200" //fireworks
+	
 
 	"ammoRegenStep"				"1"
 	"ammoRegenTime"				"1750"
@@ -85,8 +86,8 @@ entityDef weapon_rocketlauncher
 	"weaponname"				"Rocket Launcher"
 	"def_projectile"			"projectile_rocket"
 	"ammoType"					"ammo_rocketlauncher"
-	"clipSize"					"1"
-	"ammoRequired"				"1"
+	"clipSize"					"0"
+	"ammoRequired"				"0"
 	"gui"						"guis/weapons/rocketlauncher_ammo.gui"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_rocketlauncher"
 
@@ -95,7 +96,7 @@ entityDef weapon_rocketlauncher
 	"muzzle_kick_angles"		"-15 0 0"
 	"muzzle_kick_offset"		"3 0 3"
 
-	"recoilTime"				"500"
+	"recoilTime"				"100"
 	"recoilAngles"				"-.20 0 0"
 	
 	"mtr_flashShader"			"lights/muzzleflash"
@@ -131,6 +132,14 @@ entityDef weapon_rocketlauncher
 	"def_mod2"					"wpmod_rocketlauncher_homing"
 
 	"net_syncPhysics"			"1"
+	
+	//me
+	"zoomFov"					"40"
+	"zoomTime"					".1"
+	"zoomHideCrosshair"			"0"
+	"gui_zoom"					"guis/weapons/railgun_scope.gui"
+	//"altFireRate"				"2.2"
+	//"spreadzoom"				"0"
 }
 
 entityDef moveable_item_rocketlauncher
@@ -308,7 +317,7 @@ entityDef weaponmod_rocketlauncher_homing
 	"inv_ammo_rocketlauncher"	"10"
 	"inv_item"					"1"
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
-	"inv_name"					"#str_107440"
+	"inv_name"					"Fireworks"
 	"model"						"models/items/ammo/ammo_box.lwo"
 
 	"net_syncPhysics"			"1"
@@ -391,7 +400,7 @@ entityDef projectile_rocket_homing
 
 entityDef damage_rocketDirect 
 {
-	"damage"					"150"
+	"damage"					"10"
 	"push"						"45000"
 	"gib"						"1"
 
@@ -407,13 +416,13 @@ entityDef damage_rocketDirect
 entityDef damage_rocketDirect_mp
 {
 	"inherit"					"damage_rocketDirect"
-	"damage"					"100"
+	"damage"					"10"
 	"knockback"					"110"
 }
 
 entityDef damage_rocketSplash 
 {
-	"damage"					"150"
+	"damage"					"0"
 	"radius"					"180"
 	"knockback"					"100"
 	"push"						"10000"
@@ -432,6 +441,6 @@ entityDef damage_rocketSplash_mp
 {
 	"inherit"					"damage_rocketSplash"
 	"knockback"					"110"
-	"damage"					"100"
+	"damage"					"10"
 	"radius"					"120"
 }

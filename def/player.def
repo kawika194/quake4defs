@@ -713,7 +713,8 @@ entityDef player_marine
 //	"current_weapon"		"11" 
 	
 	//mage set
-	"weapon"			"weapon_lightninggun,weapon_dmg,weapon_napalmgun,weapon_blaster" 
+	//"weapon"			"weapon_lightninggun,weapon_dmg,weapon_napalmgun,weapon_blaster" 
+	"weapon"			"weapon_rocketlauncher,weapon_dmg,weapon_napalmgun,weapon_blaster" 
 	"current_weapon"		"11" 	
 	
 	
